@@ -15,3 +15,6 @@ function My_First_Function() { //Defining function and naming it
     var result = str.fontcolor("pink"); // Using fontcolor method on str variable
     document.getElementById("Pink_Text").innerHTML = result; //Putting the value of result into HTML element with Pink_Text ID
 }
+
+var d = new Date();
+document.getElementById("date").innerHTML = d;
