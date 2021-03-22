@@ -1,0 +1,80 @@
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: right;
+}
+ /* Floating / sizing part of menu to the correct sides */
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top:0;margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}
+
+body {
+    background-color: rgb(41, 83, 57);
+}
+/* color and font for all h1, h3 components */
+h1, h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(238, 228, 93);
+}
+/* font and color for all div components */
+
+div {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(248, 238, 183);
+    
+}
+
+.promotion {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    margin: auto;
+    border:black solid 2px;
+}
+
+/* for silly promotion, added border and padding around <p> element */
